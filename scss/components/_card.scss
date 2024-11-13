@@ -30,4 +30,21 @@
     padding: $space-40 $space-30;
     text-align: center;
   }
+
+  &__header {
+    @include flex-column($space-16);
+  }
+
+  &__header-title {
+    font-size: $font-size-28;
+    font-weight: 700;
+    line-height: $line-height-115;
+  }
+
+  &__header-text {
+    color: $white-75;
+    font-size: $font-size-15;
+    font-weight: 400;
+    line-height: $line-height-165;
+  }
 }
