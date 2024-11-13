@@ -24,4 +24,10 @@
     top: 0;
     width: 100%;
   }
+
+  &__content {
+    @include flex-column($space-38);
+    padding: $space-40 $space-30;
+    text-align: center;
+  }
 }
