@@ -22,14 +22,31 @@
   <body>
     <main>
       <article class="card">
+        <div class="card__image-overlay">
+          <picture class="card__image-container">
+            <source
+              media="(max-width: 735px)"
+              srcset="./assets/images/image-header-mobile.webp"
+            />
+            <source
+              media="(min-width: 736px)"
+              srcset="./assets/images/image-header-desktop.webp"
+            />
+            <img
+              src="./assets/images/image-header-mobile.jpg"
+              alt="image-header-desktop"
+              class="card__image"
+            />
+          </picture>
+        </div>
         <div class="card__content">
-          <div class="card__header">
+          <header class="card__header">
             <h1>Get <span>insights</span> that help your business grow.</h1>
             <p>
               Discover the benefits of data analytics and make better decisions
               regarding revenue, customer experience, and overall efficiency.
             </p>
-          </div>
+          </header>
           <div class="card__stats">
             <div class="card__stat-container">
               <h2 class="card__stat-header">10k+</h2>
@@ -43,20 +60,6 @@
               <h2 class="card__stat-header">12M+</h2>
               <p class="card__stat-text">queries</p>
             </div>
-          </div>
-        </div>
-        <div class="card__image-container">
-          <div class="card__image-overlay">
-            <img
-              src="./assets/images/image-header-mobile.jpg"
-              alt="image-header-desktop"
-              class="card__image"
-              srcset="
-                ./assets/images/image-header-mobile.jpg   375w,
-                ./assets/images/image-header-desktop.jpg 1440w
-              "
-              sizes="(max-width: 768px) 375px, 1440px"
-            />
           </div>
         </div>
       </article>
