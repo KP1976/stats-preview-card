@@ -169,3 +169,29 @@ main {
   padding: 0 1.5rem;
   width: 100%;
 }
+
+.card {
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 0.5rem;
+}
+.card__image-container {
+  position: relative;
+}
+.card__image {
+  border-radius: 0.5rem 0.5rem 0 0;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card__image-overlay {
+  align-items: center;
+  background-color: hsl(277, 57%, 62%);
+  display: flex;
+  mix-blend-mode: multiply;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

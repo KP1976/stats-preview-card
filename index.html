@@ -22,8 +22,8 @@
   <body>
     <main>
       <article class="card">
-        <div class="card__image-overlay">
-          <picture class="card__image-container">
+        <div class="card__image-container">
+          <picture>
             <source
               media="(max-width: 735px)"
               srcset="./assets/images/image-header-mobile.webp"
@@ -33,12 +33,14 @@
               srcset="./assets/images/image-header-desktop.webp"
             />
             <img
-              src="./assets/images/image-header-mobile.jpg"
-              alt="image-header-desktop"
+              src="./assets/images/image-header-desktop.jpg"
+              alt="image-header"
               class="card__image"
             />
           </picture>
+          <div class="card__image-overlay"></div>
         </div>
+
         <div class="card__content">
           <header class="card__header">
             <h1>Get <span>insights</span> that help your business grow.</h1>
