@@ -198,6 +198,11 @@ main {
      object-fit: cover;
   width: 100%;
 }
+@media (min-width: 47.25rem) {
+  .card__image {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+}
 .card__image-overlay {
   align-items: center;
   background-color: hsl(277, 57%, 62%);

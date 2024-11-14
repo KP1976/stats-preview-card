@@ -23,6 +23,10 @@
     height: 100%;
     object-fit: cover;
     width: 100%;
+
+    @include respond-to($breakpoint-desktop-small) {
+      border-radius: 0 $border-radius-8 $border-radius-8 0;
+    }
   }
 
   &__image-overlay {
