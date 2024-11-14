@@ -33,13 +33,22 @@
     align-items: center;
     background-color: $soft-violet;
     display: flex;
-    mix-blend-mode: multiply;
     height: 100%;
     justify-content: center;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
+
+    &--light {
+      background-color: hsl(0, 0%, 100%, 0.25);
+      mix-blend-mode: hard-light;
+    }
+
+    &--violet {
+      mix-blend-mode: multiply;
+      background-color: $soft-violet;
+    }
   }
 
   &__content {
