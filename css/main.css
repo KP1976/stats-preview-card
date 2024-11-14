@@ -243,3 +243,14 @@ main {
   letter-spacing: 0.8px;
   text-transform: uppercase;
 }
+
+.attribution {
+  bottom: 0;
+  font-size: 0.75rem;
+  padding: 1rem 0;
+  position: absolute;
+  text-align: center;
+}
+.attribution__link {
+  color: hsl(277, 57%, 62%);
+}
