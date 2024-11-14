@@ -212,9 +212,34 @@ main {
   font-weight: 700;
   line-height: 1.15;
 }
+.card__header-title--accent {
+  color: hsl(277, 57%, 62%);
+}
 .card__header-text {
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 0.938rem;
   font-weight: 400;
   line-height: 1.65;
+}
+.card__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+.card__stat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.card__stat-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+.card__stat-text {
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
 }
